@@ -76,3 +76,36 @@ a {
 .book-btn:hover {
     background:  #C0C0C0;
 }
+
+/* Main section styles */
+.main{
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main h4{
+    font-size: 32px;
+    color: #F8F9FA;
+    font-weight: 600;
+}
+
+.main h4 span{
+    color: #990000;
+    text-decoration: underline;
+}
+
+.main p.title{
+    font-size: 44px;
+    font-weight: 600;
+    color: #F8F9FA;
+    margin-top: 8px;
+}
+
+.main p.subtitle{
+    font-size: 16px;
+    color: #A1A9B1;
+    margin-top: 20px;
+}
