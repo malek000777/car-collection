@@ -206,3 +206,130 @@ a {
     font-size: 14px;
 }
 
+footer{
+    position: relative;
+    background: #000000;
+    padding: 80px 50px 40px;
+    margin-top: 100px;
+}
+
+footer .start{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    background-color:#990000;
+    padding: 30px 25px;
+    border-radius: 10px;
+    width: 70%;
+    top: -16%;
+    left: 15%;
+}
+
+footer .start p{
+    font-size: 13px;
+    width: 35%;
+}
+
+footer .start button{
+    background: transparent;
+    border: 1px solid #000000;
+    cursor: pointer;
+    padding: 8px 20px;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+}
+
+footer .start button:hover{
+    background-color: #C0C0C0;
+    border-color: #F0F0F0;
+}
+
+footer .cols{
+    display: flex;
+    align-items: start;
+}
+
+footer .cols .about-col{
+    flex: 3;
+}
+
+footer .cols .about-col h3{
+    color: #53595D;
+    margin-bottom: 20px;
+}
+
+footer .cols .about-col p{
+    color: #A1A9B1;
+    font-size: 13px;
+}
+
+footer .cols .links-col{
+    flex: 3;
+}
+
+footer .cols .links-col, .cols h4{
+    color: #F8F9FA;
+    margin-bottom: 20px;
+}
+
+footer .cols .links-col a{
+    display: block;
+    color: #C0C0C0;
+    font-size: 14px;
+    line-height: 26px;
+    transition: color 0.3s ease;
+}
+
+footer .cols .links-col a:hover{
+    color: #990000;
+}
+
+footer .cols {
+    flex: 3;
+}
+
+footer .cols p{
+    color:#A1A9B1;
+    font-size: 15px;
+}
+
+footer .cols{
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+footer .cols {
+    width: 100%;
+    padding: 13px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+footer .colsn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: #000000;
+    border: none;
+    border-radius: 40%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+footer .cols {
+    font-size: 26px;
+}
+
+.copyright {
+    text-align: center;
+    color: #404040;
+    margin-top: 50px;
+    font-size: 14px;
+}
