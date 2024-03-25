@@ -16,7 +16,7 @@ body {
 
 /* Heading styles */
 h2{
-    color:#990000 ; 
+    color: #990000; 
     text-align: center; 
     font-weight: bold;
 }
@@ -59,4 +59,20 @@ h2{
 
 a {
     text-decoration: none;
+}
+
+/* Hire button styles */
+.book-btn {
+    background: #990000;
+    color: #000;
+    padding: 6px 30px;
+    border: 2px solid #000; 
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.book-btn:hover {
+    background:  #C0C0C0;
 }
