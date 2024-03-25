@@ -198,7 +198,7 @@ a {
     color:#F8F9FA;
     font-size: 25px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .about .info p{
@@ -219,9 +219,9 @@ footer .start{
     align-items: center;
     justify-content: space-around;
     position: absolute;
-    background-color: #990000;
+    background-color:#990000;
     padding: 30px 25px;
-    border-radius: 15px;
+    border-radius: 10px;
     width: 70%;
     top: -16%;
     left: 15%;
@@ -230,6 +230,20 @@ footer .start{
 footer .start p{
     font-size: 13px;
     width: 35%;
+}
+
+footer .start button{
+    background: transparent;
+    border: 1px solid #000000;
+    cursor: pointer;
+    padding: 8px 20px;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+}
+
+footer .start button:hover{
+    background-color: #C0C0C0;
+    border-color: #F0F0F0;
 }
 
 footer .cols{
@@ -242,12 +256,12 @@ footer .cols .about-col{
 }
 
 footer .cols .about-col h3{
-    color: #303030;
+    color: #53595D;
     margin-bottom: 20px;
 }
 
 footer .cols .about-col p{
-    color: #F0F0F0;
+    color: #A1A9B1;
     font-size: 13px;
 }
 
@@ -255,15 +269,14 @@ footer .cols .links-col{
     flex: 3;
 }
 
-footer .cols .links-col h4, footer .cols .news-col h4{
-    color: #f0f0f0;
+footer .cols .links-col, .cols h4{
+    color: #F8F9FA;
     margin-bottom: 20px;
 }
 
 footer .cols .links-col a{
     display: block;
-    text-decoration: none;
-    color: #7b7b7b;
+    color: #C0C0C0;
     font-size: 14px;
     line-height: 26px;
     transition: color 0.3s ease;
@@ -273,13 +286,46 @@ footer .cols .links-col a:hover{
     color: #990000;
 }
 
-footer .cols .news-col{
+footer .cols {
     flex: 3;
 }
 
-footer .cols .news-col p{
-    color: #7b7b7b;
+footer .cols p{
+    color:#A1A9B1;
     font-size: 15px;
+}
+
+footer .cols{
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+footer .cols {
+    width: 100%;
+    padding: 13px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+footer .colsn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: #000000;
+    border: none;
+    border-radius: 40%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+footer .cols {
+    font-size: 26px;
 }
 
 .copyright {
